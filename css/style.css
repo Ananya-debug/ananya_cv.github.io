@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Josefin+Sans:wght@100&display=swap');
+
+body{
+     margin: 0;
+}
+nav{
+     background-color:black;
+     color: white;
+     font-size: 15px;
+     padding: 4px;
+     font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+     color: #006778;
+     text-shadow: 1px 1px 2px black;
+}
+pre a {
+     font-family: 'Dosis', sans-serif;
+     font-weight: bold;
+}
+a{
+     text-decoration: none;
+     color: black;
+}
+ul li a{
+     color: beige;
+}
+a:hover{
+     background-color: rgb(176, 175, 175);
+     padding: 4px;
+}
+h3{
+     letter-spacing: 2px;
+}
+ul ul li{
+     font-size: small;
+     opacity: 40%;
+     font-family: 'Dosis', sans-serif;
+}
+.flex{
+     transform: translate(12%);
+     background-color:#050638;
+     color: azure;
+     margin: 10px;
+     margin-bottom: 30px;
+     padding: 1px;
+     display: flex;
+     width: 80%;
+     justify-content: space-between;
+     box-shadow:10px 5px 5px #006778;
+}
+.section1{
+
+     animation: ani1 2s linear 1;
+ animation-delay: 4s;
+} 
+@keyframes ani1 {
+   0%{
+        transform: translateX(-100%);
+   }  
+   100%{
+        transform: translateX(100%);
+   }
+}
+.item1 {
+     
+     animation: it1 1s 6s 1;
+}
+@keyframes it1 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+
+.item2 {
+     
+     animation: it2 1s 7s 1;
+}
+@keyframes it2 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+
+.item3 {
+     animation: it3 1s 8s 1;
+}
+@keyframes it3 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.item4 {
+     animation: it4 1s 9s 1;
+}
+@keyframes it4 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+ .section2{
+     animation: ani2 2s linear 1;
+ animation-delay: 10s;
+} 
+@keyframes ani2 {
+   0%{
+        transform: translateX(-100%);
+   }  
+   100%{
+        transform: translateX(100%);
+   }
+}
+.item5 {
+     animation: it5 1s 12s 1;
+}
+@keyframes it5 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.item6 {
+     animation: it6 1s 13s 1;
+}
+@keyframes it6 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.item7 {
+     animation: it7 1s 14s 1;
+}
+@keyframes it7 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.item8 {
+     animation: it8 1s 15s 1;
+}
+@keyframes it8 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.section3{
+     animation: ani3 2s linear 1;
+ animation-delay: 16s;
+} 
+@keyframes ani3 {
+   0%{
+        transform: translateX(-100%);
+   }  
+   100%{
+        transform: translateX(100%);
+   }
+}
+.item9 {
+     animation: it9 1s 18s 1;
+}
+@keyframes it9 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.item10 {
+     animation: it8 1s 19s 1;
+}
+@keyframes it10 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.item11 {
+     animation: it11 1s 20s 1;
+}
+@keyframes it11 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.item12 {
+     animation: it12 1s 21s 1;
+}
+@keyframes it12 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.section4{
+     animation: ani2 2s linear 1;
+ animation-delay: 22s;
+} 
+@keyframes ani4 {
+   0%{
+        transform: translateX(-100%);
+   }  
+   100%{
+        transform: translateX(100%);
+   }
+}
+.item13 {
+     animation: it13 1s 24s 1;
+}
+@keyframes it13 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.item14 {
+     animation: it14 1s 25s 1;
+}
+@keyframes it14 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.item15 {
+     animation: it15 1s 26s 1;
+}
+@keyframes it15 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+.item16 {
+     animation: it16 1s 27s 1;
+}
+@keyframes it16 {
+     0%{
+          opacity: 1;
+     }
+     50%{
+          opacity: 0;
+     }
+     100%{
+          opacity: 1;
+     }
+}
+
+.grid{
+     margin: 10px;
+     height: 390px;
+     width: 450px;
+     display: grid;
+     column-gap: 2px;
+     row-gap: 4px;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+}  
+.ft table tbody tr td{
+     font-family: 'Dosis', sans-serif;
+}
+.font{
+     font-weight: bold;
+     font-family: 'Dosis', sans-serif;
+}
+
+
+footer{
+   
+     background-color:black;
+     padding: 10px;
+     display: flex;
+     justify-content: space-between
+}
+footer span{
+     font-size: smaller;
+     color: white;
+     font-family: 'Josefin Sans', sans-serif;
+}
